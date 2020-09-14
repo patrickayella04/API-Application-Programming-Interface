@@ -1,48 +1,18 @@
-<!--
-    What Is An API 
-    1. Application Programming Interface
-    2. Contract provided by one piece of software to another
-    3. Structured request and response
-    4. We just worked with an API that takes a request and response with jokes (chuck noris project)
 
-    REST APIS
-    What is REST?
-    1. Represtational State Transfer
-    2. Architecture style for designing networked applications
-    3. Relies on a Stateless, client-server protocol, almost always HTTP
-    4.Treats server objects as resources that can be created or destroyed
-    5. Can be used by virtually any programming language
-    6. All APIS have their own rules and structure
-
-    Key: An API is the Messager and REST APIS lets us use HTTP requerst to format that message. 
-/////////////////////////////////////////////////////
-
-    HTTP Request
-    GET: Retrieve date from a specified resource
-    POST: Sunmit data to be processed to a specified resource 
-    PUT: Update a specified resource
-    DELETE: Delete a specified resource
-
-    Other types of Request are...
-
-    HEAD: Same as get but does not return body, only returns the HEADER
-    OPTIONS: Returns the supported HTTP methods of that specific server
-    PATCH: Update partial resources
-///////////////////////////////////////////////////
-
-    API Endpoints
-
-    When you have some kind of API, whether it's your own, or its an external you will have somehting called End points. The API End points are the URLs that you access to do certai things. A common Endpoint to GET ALL users...see more below
-
-    // some URLs are exactly the same which is fine as they are different methods
-
-    GET http//someurl.com/api/users    // Get all users
-    GET http//someurl.com/api/users/1  //Get single user
-
-    not: these next end points you will be sending data along with your request, because it needs to know the post data to add(POST), which post to update(PUT) aswell as the data that you want to update it with. And (DELTE) will delete a user based on the ID passed in the url.
-
-    POST http//someurl.com/api/users   // Add user
-    PUT  http//someurl.com/api/users/1  // Udate user
-    DELETE http//someurl.com/api/users/1  // Delete user 
-
--->
+    <!DOCTYPE html>
+   
+     <html class="no-js"> 
+        <head>
+            <meta charset="utf-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <title>Ajax Sandbox</title>
+            <meta name="description" content="">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link rel="stylesheet" href="">
+        </head>
+        <body>
+            
+            
+            <script src="app.js" async defer></script>
+        </body>
+    </html>
